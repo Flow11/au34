@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 10px;
+}
+
+form span {
+  display: block;
+}
+
+.svg-container {
+  display: inline-block;
+  overflow: hidden;
+  padding-bottom: 100%;
+  width: 100%;
+}
+
+.highlight {
+  fill: green !important;
+}
