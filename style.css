@@ -25,10 +25,7 @@ form span {
 }
 
 .svg-container {
-  display: inline-block;
-  margin-top: 100px;
-  overflow: hidden;
-  padding-bottom: 100%;
+  margin-top: 120px;
   width: 100%;
 }
 
