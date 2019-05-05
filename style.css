@@ -2,7 +2,21 @@ body {
   text-align: center;
 }
 
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+  display: flex;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 99;
+}
+
 form {
+  display: flex;
+  flex: auto;
+  justify-content: center;
   margin-bottom: 10px;
 }
 
@@ -12,6 +26,7 @@ form span {
 
 .svg-container {
   display: inline-block;
+  margin-top: 100px;
   overflow: hidden;
   padding-bottom: 100%;
   width: 100%;
@@ -19,4 +34,8 @@ form span {
 
 .highlight {
   fill: green !important;
+}
+
+.hidden {
+  display: none;
 }
