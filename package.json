@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "NerOcrO",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^1.0.0-beta.8"
+  }
 }
